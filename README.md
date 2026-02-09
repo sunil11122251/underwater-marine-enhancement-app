@@ -31,7 +31,7 @@ The proposed system addresses these issues through a **hybrid adaptive framework
 ## 🏗 System Architecture (Parallel Model)
 
 ```
-                        ```
+                        
               Start
                 │
                 ▼
@@ -60,7 +60,7 @@ Contrast Enhancement               Visibility Restoration
                   │
                   ▼
          Final Enhanced Image
-
+```
 ---
 
 ## 🧪 Technical Methodology
