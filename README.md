@@ -31,17 +31,35 @@ The proposed system addresses these issues through a **hybrid adaptive framework
 ## 🏗 System Architecture (Parallel Model)
 
 ```
-                         ┌── LAB Contrast Enhancement ──┐
-Input Image ──► White Balance                           │
-                         └── Visibility Restoration ───►│
-                                                         ▼
-                                                     Fusion
-                                                         │
-                                                         ▼
-                                                  ADGOL Refinement
-                                                         │
-                                                         ▼
-                                                Enhanced Output
+                        ```
+Start
+  │
+  ▼
+Captured Underwater Image
+  │
+  ▼
+Dynamic Parameter Estimation
+  │
+  ▼
+Adaptive White Balancing
+  │
+  ▼
+Color Correction
+  │
+  ├───────────────┬────────────────────────────┐
+  ▼                                       ▼
+Contrast Enhancement              Visibility Restoration
+  │                                       │
+  └───────────────┬───────────────────────┘
+                  ▼
+Adaptive Fusion
+(Weighted Linear Combination)
+                  │
+                  ▼
+ADGOL Refinement
+                  │
+                  ▼
+Final Enhanced Image
 ```
 
 ---
