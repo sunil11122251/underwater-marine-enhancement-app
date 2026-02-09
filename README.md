@@ -46,11 +46,11 @@ The proposed system addresses these issues through a **hybrid adaptive framework
                 ▼ 
          Color Correction
                  │
-  ───────────────────────────────────────────┐
-  ▼                                           ▼
+  ┌──────────────────────────────────────────┐
+  ▼                                          ▼
 Contrast Enhancement               Visibility Restoration
-  │                                           │
-  └───────────────┬───────────────────────────┘
+  │                                          │
+  └───────────────┬──────────────────────────┘
                   ▼
           Adaptive Fusion
      (Weighted Linear Combination)
@@ -60,7 +60,6 @@ Contrast Enhancement               Visibility Restoration
                   │
                   ▼
          Final Enhanced Image
-```
 
 ---
 
