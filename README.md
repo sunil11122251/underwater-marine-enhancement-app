@@ -219,12 +219,13 @@ streamlit run app.py
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-**Sunil**  
-**Syam Kiran** 
-**Pavan** 
-**Bhanusree** 
+- **Sunil**  
+- **Syam Kiran**  
+- **Pavan**  
+- **Bhanusree**
+
 B.Tech CSE Students  
 Project: Adaptive Image Enhancement Techniques for Underwater Marine Visuals
 
