@@ -32,34 +32,34 @@ The proposed system addresses these issues through a **hybrid adaptive framework
 
 ```
                         ```
-Start
-  │
-  ▼
-Captured Underwater Image
-  │
-  ▼
-Dynamic Parameter Estimation
-  │
-  ▼
-Adaptive White Balancing
-  │
-  ▼
-Color Correction
-  │
-  ├───────────────┬────────────────────────────┐
-  ▼                                       ▼
-Contrast Enhancement              Visibility Restoration
-  │                                       │
-  └───────────────┬───────────────────────┘
+              Start
+                │
+                ▼
+       Captured Underwater Image
+                │
+                ▼
+      Dynamic Parameter Estimation
+                │
+                ▼
+        Adaptive White Balancing
+                │
+                ▼ 
+         Color Correction
+                 │
+  ───────────────────────────────────────────┐
+  ▼                                           ▼
+Contrast Enhancement               Visibility Restoration
+  │                                           │
+  └───────────────┬───────────────────────────┘
                   ▼
-Adaptive Fusion
-(Weighted Linear Combination)
+          Adaptive Fusion
+     (Weighted Linear Combination)
                   │
                   ▼
-ADGOL Refinement
+         ADGOL Refinement
                   │
                   ▼
-Final Enhanced Image
+         Final Enhanced Image
 ```
 
 ---
