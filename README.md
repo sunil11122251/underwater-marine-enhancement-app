@@ -138,7 +138,10 @@ underwater-marine-enhancement-app/
 │   └── adgol.pth     # Trained model
 ├── Demo/
 │   └── Input Image.png
+│   └── Output Image.png
 ├── README.md
+├── setup_instructions.md
+├── Architecture.png
 └── MIT License
 ```
 
