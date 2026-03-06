@@ -136,6 +136,8 @@ underwater-marine-enhancement-app/
 ├── requirements.txt  # Dependencies
 ├── weights/
 │   └── adgol.pth     # Trained model
+├── Demo/
+│   └── Input Image.png
 ├── README.md
 └── MIT License
 ```
