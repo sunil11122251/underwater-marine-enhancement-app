@@ -6,7 +6,6 @@ from model import ADGOL
 from utils import *
 from metrics import compute_metrics
 
-# =====================================================
 st.set_page_config(
     page_title="Underwater Enhancement",
     page_icon="🌊",
@@ -14,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("🌊 Adaptive Image Enhancement Techniques for Underwater Marine Visuals")
-# =====================================================
+
 
 @st.cache_resource
 def load_model():
@@ -32,7 +31,8 @@ uploaded = st.file_uploader(
     type=["jpg", "png", "jpeg"]
 )
 
-# =====================================================
+
+
 if uploaded:
 
     file_bytes = np.asarray(bytearray(uploaded.read()), dtype=np.uint8)
@@ -53,9 +53,8 @@ if uploaded:
 
     final = postprocess(out)
 
-    # =================================================
-    # CREATE TABS LIKE PAGES
-    # =================================================
+
+    
     t1, t2, t3, t4 = st.tabs([
         "🖼 Enhancement",
         "🔎 All Stages",
@@ -63,7 +62,7 @@ if uploaded:
         "⬇ Download"
     ])
 
-    # -------------------------------------------------
+
     with t1:
         st.subheader("Before vs After")
 
@@ -75,7 +74,7 @@ if uploaded:
         with c2:
             st.image(cv2.cvtColor(final, cv2.COLOR_BGR2RGB),caption="Enhanced")
 
-    # -------------------------------------------------
+
     with t2:
         st.subheader("Processing Stages")
 
@@ -91,7 +90,7 @@ if uploaded:
 
         st.image(cv2.cvtColor(final, cv2.COLOR_BGR2RGB), caption="6. Final ADGOL")
 
-    # -------------------------------------------------
+
     with t3:
         st.subheader("Evaluation Metrics")
 
@@ -124,12 +123,11 @@ if uploaded:
             "UIQM":[r[2] for r in rows]
         })
 
-    # -------------------------------------------------
-    # -------------------------------------------------
+
+    
     with t4:
         st.subheader("Download Results")
 
-        # ---- Individual Downloads ----
         st.markdown("### Download Individual Images")
 
         def to_bytes(im):
@@ -166,7 +164,6 @@ if uploaded:
                         mime="image/png")
 
 
-        # ---- Download All as ZIP ----
         st.markdown("### Download All Images Together")
 
         import io, zipfile
