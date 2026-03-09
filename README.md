@@ -1,4 +1,4 @@
-# 🌊 Adaptive Image Enhancement Techniques for Underwater Marine Visuals
+# Adaptive Image Enhancement Techniques for Underwater Marine Visuals
 > **A Hybrid Parallel Enhancement Framework using Classical Processing and ADGOL Deep Refinement**
 
 This project presents a deployable web-based system for restoring degraded underwater images affected by color cast, scattering, low contrast, and poor visibility. The approach follows a **parallel enhancement architecture** where LAB-based contrast enhancement and visibility restoration operate simultaneously and are later fused, followed by deep learning refinement using the ADGOL network.
