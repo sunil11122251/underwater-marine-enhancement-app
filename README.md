@@ -28,7 +28,7 @@ The proposed system addresses these issues through a **hybrid adaptive framework
 
 ---
 
-## 🏗 System Architecture (Parallel Model)
+## System Architecture
 
 ```
                         
