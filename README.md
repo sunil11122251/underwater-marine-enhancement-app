@@ -5,7 +5,7 @@ This project presents a deployable web-based system for restoring degraded under
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Underwater Marine images typically suffer from:
 
@@ -18,7 +18,7 @@ The proposed system addresses these issues through a **hybrid adaptive framework
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Restore natural underwater color balance  
 - Improve visibility and contrast without artifacts  
@@ -63,7 +63,7 @@ Contrast Enhancement               Visibility Restoration
 ```
 ---
 
-## 🧪 Technical Methodology
+##  Technical Methodology
 
 ### 1. Pre-Processing
 - **White Balance Correction**  
@@ -93,7 +93,7 @@ Contrast Enhancement               Visibility Restoration
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 The system provides quantitative and perceptual evaluation:
 
@@ -148,7 +148,7 @@ underwater-marine-enhancement-app/
 
 ---
 
-## ⚙ Installation & Usage
+##  Installation & Usage
 
 ### 1. Clone Repository
 
@@ -171,7 +171,7 @@ streamlit run app.py
 
 ---
 
-## 🖼 Workflow
+##  Workflow
 
 1. Upload underwater image  
 2. White balance preprocessing  
@@ -184,7 +184,7 @@ streamlit run app.py
 
 ---
 
-## 🔍 Stage Description
+##  Stage Description
 
 | Stage | Type | Purpose |
 |-----|------|---------|
@@ -196,7 +196,7 @@ streamlit run app.py
 
 ---
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 
 - **Frontend**: Streamlit  
 - **Deep Learning**: PyTorch  
@@ -206,7 +206,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 - Real-time video enhancement  
 - GAN-based refinement  
@@ -216,7 +216,7 @@ streamlit run app.py
 
 ---
 
-## 👨‍🎓 Academic Context
+##  Academic Context
 
 - Domain: Underwater Image Processing  
 - Approach: Parallel Hybrid Framework  
@@ -225,7 +225,7 @@ streamlit run app.py
 
 ---
 
-## 👤 Authors
+##  Authors
 
 - **Sunil**  
 - **Syam Kiran**  
@@ -243,10 +243,10 @@ Developed for educational and research purposes.
 
 ---
 
-## 🙏 Acknowledgement
+##  Acknowledgement
 
 This work is inspired by recent research in underwater image restoration using hybrid classical–deep learning paradigms.
 
 ---
 
-### ⭐ If you find this useful, please star the repository!
+###  If you find this useful, please star the repository!
