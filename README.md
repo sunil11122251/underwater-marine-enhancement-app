@@ -105,7 +105,7 @@ The system provides quantitative and perceptual evaluation:
 
 ---
 
-## 🖥 Application Features
+## Application Features
 
 ✔ Upload any underwater image  
 ✔ View all processing stages sequentially  
@@ -124,7 +124,7 @@ The system provides quantitative and perceptual evaluation:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 underwater-marine-enhancement-app/
