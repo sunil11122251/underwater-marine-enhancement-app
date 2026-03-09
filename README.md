@@ -107,16 +107,16 @@ The system provides quantitative and perceptual evaluation:
 
 ## Application Features
 
-✔ Upload any underwater image  
-✔ View all processing stages sequentially  
-✔ Before/After comparison  
-✔ Metrics on demand  
-✔ Stage-wise quality table  
-✔ Download:
+Upload any underwater image  
+View all processing stages sequentially  
+Before/After comparison  
+Metrics on demand  
+Stage-wise quality table  
+Download:
 - Individual stage images  
 - All results as ZIP
 
-✔ Professional multi-tab dashboard:
+Professional multi-tab dashboard:
 - Enhancement  
 - Stage Visualization  
 - Evaluation  
